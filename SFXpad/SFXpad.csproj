@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11D3D493-FD75-46EC-84E5-7958AD65AB76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SFXpad</RootNamespace>
+    <AssemblyName>SFXpad</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SFXPad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SFXPad.Designer.cs">
+      <DependentUpon>SFXPad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SFXPad.resx">
+      <DependentUpon>SFXPad.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APRING.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WOODTWND.WAV" />
+    <None Include="Resources\WOODTHUD.WAV" />
+    <None Include="Resources\VRYHARDB.WAV" />
+    <None Include="Resources\VOCWARB.WAV" />
+    <None Include="Resources\VOCFUNNY.WAV" />
+    <None Include="Resources\VOCANIM.WAV" />
+    <None Include="Resources\TWANG.WAV" />
+    <None Include="Resources\TRAP.WAV" />
+    <None Include="Resources\THUD0.WAV" />
+    <None Include="Resources\THRWVIB.WAV" />
+    <None Include="Resources\THRWTWNG.WAV" />
+    <None Include="Resources\THRWSTOP.WAV" />
+    <None Include="Resources\THRWSTIK.WAV" />
+    <None Include="Resources\STEELDRM.WAV" />
+    <None Include="Resources\SQUTWIST.WAV" />
+    <None Include="Resources\SQUEEK0.WAV" />
+    <None Include="Resources\SPINHI.WAV" />
+    <None Include="Resources\SOFTWANG.WAV" />
+    <None Include="Resources\SMMETDRP.WAV" />
+    <None Include="Resources\SMALGONG.WAV" />
+    <None Include="Resources\SHRTTWNG.WAV" />
+    <None Include="Resources\SHRTTHUD.WAV" />
+    <None Include="Resources\SHRTTHRW.WAV" />
+    <None Include="Resources\SHRTSQRT.WAV" />
+    <None Include="Resources\SHRTDRUM.WAV" />
+    <None Include="Resources\SHRTBRKW.WAV" />
+    <None Include="Resources\SHRTBRD.WAV" />
+    <None Include="Resources\SHRTBNCE.WAV" />
+    <None Include="Resources\SHRTBASS.WAV" />
+    <None Include="Resources\SHORTCAR.WAV" />
+    <None Include="Resources\PLASBNCE.WAV" />
+    <None Include="Resources\MINIDRUM.WAV" />
+    <None Include="Resources\MIDTWANG.WAV" />
+    <None Include="Resources\METSTRK.WAV" />
+    <None Include="Resources\METDRUM.WAV" />
+    <None Include="Resources\METDRIP.WAV" />
+    <None Include="Resources\MEDVIB.WAV" />
+    <None Include="Resources\MANBONK.WAV" />
+    <None Include="Resources\LOWSPIN.WAV" />
+    <None Include="Resources\LOWBONG.WAV" />
+    <None Include="Resources\LOSQUIRT.WAV" />
+    <None Include="Resources\LONGBONG.WAV" />
+    <None Include="Resources\HITWANG.WAV" />
+    <None Include="Resources\HEAVDROP.WAV" />
+    <None Include="Resources\HARDBALL.WAV" />
+    <None Include="Resources\FUNYDROP.WAV" />
+    <None Include="Resources\DWEEE.WAV" />
+    <None Include="Resources\DWEEDWEE.WAV" />
+    <None Include="Resources\DROPSND.WAV" />
+    <None Include="Resources\DROPBRK.WAV" />
+    <None Include="Resources\DIVBRD2.WAV" />
+    <None Include="Resources\DIVBOARD.WAV" />
+    <None Include="Resources\DESCDRUM.WAV" />
+    <None Include="Resources\CLICKING.WAV" />
+    <None Include="Resources\CATCH.WAV" />
+    <None Include="Resources\CARTTONE.WAV" />
+    <None Include="Resources\CARTSHAK.WAV" />
+    <None Include="Resources\CARTFX.WAV" />
+    <None Include="Resources\CARTDRUM.WAV" />
+    <None Include="Resources\BOUNCE.WAV" />
+    <None Include="Resources\BOINGER.WAV" />
+    <None Include="Resources\BNCEDRIP.WAV" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
