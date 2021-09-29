@@ -257,33 +257,61 @@ namespace SFXpad
 
         private void SFXPad_Load(object sender, EventArgs e)
         {
-           
             var outPutDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase);
-            links[0] = Path.Combine(outPutDirectory, @"SFX\APRING.WAV");
-            links[1] = Path.Combine(outPutDirectory, @"SFX\BNCEDRIP.WAV");
-            links[2] = Path.Combine(outPutDirectory, @"SFX\BOINGER.WAV");
-            links[3] = Path.Combine(outPutDirectory, @"SFX\BOUNCE.WAV");
-            links[4] = Path.Combine(outPutDirectory, @"SFX\CARTDRUM.WAV");
-            links[5] = Path.Combine(outPutDirectory, @"SFX\CARTFX.WAV");
-            links[6] = Path.Combine(outPutDirectory, @"SFX\CARTSHAK.WAV");
-            links[7] = Path.Combine(outPutDirectory, @"SFX\CARTTONE.WAV");
-            links[8] = Path.Combine(outPutDirectory, @"SFX\CATCH.WAV");
-            links[9] = Path.Combine(outPutDirectory, @"SFX\CLICKING.WAV");
-            links[10] = Path.Combine(outPutDirectory, @"SFX\DESCDRUM.WAV");
-            links[11] = Path.Combine(outPutDirectory, @"SFX\DIVBOARD.WAV");
-            links[12] = Path.Combine(outPutDirectory, @"SFX\DIVBRD2.WAV");
-            links[13] = Path.Combine(outPutDirectory, @"SFX\DROPBRK.WAV");
-            links[14] = Path.Combine(outPutDirectory, @"SFX\DROPSND.WAV");
-            links[15] = Path.Combine(outPutDirectory, @"SFX\DWEEDWEE.WAV");
-            links[16] = Path.Combine(outPutDirectory, @"SFX\DWEEE.WAV");
-            links[17] = Path.Combine(outPutDirectory, @"SFX\FUNYDROP.WAV");
-            links[18] = Path.Combine(outPutDirectory, @"SFX\HARDBALL.WAV");
-            links[19] = Path.Combine(outPutDirectory, @"SFX\HEAVDROP.WAV");
-            links[20] = Path.Combine(outPutDirectory, @"SFX\HITWANG.WAV");
-            links[21] = Path.Combine(outPutDirectory, @"SFX\LONGBONG.WAV");
-            links[22] = Path.Combine(outPutDirectory, @"SFX\LOSQUIRT.WAV");
-            links[23] = Path.Combine(outPutDirectory, @"SFX\LOWBONG.WAV");
-            links[24] = Path.Combine(outPutDirectory, @"SFX\LOWSPIN.WAV");
+            string RunningPath = AppDomain.CurrentDomain.BaseDirectory;
+            string FileName = string.Format("{0}Resources", Path.GetFullPath(Path.Combine(RunningPath, @"..\..\")));
+            //links[0] = Path.Combine(outPutDirectory, @"SFX\APRING.WAV");
+            //links[1] = Path.Combine(outPutDirectory, @"SFX\BNCEDRIP.WAV");
+            //links[2] = Path.Combine(outPutDirectory, @"SFX\BOINGER.WAV");
+            //links[3] = Path.Combine(outPutDirectory, @"SFX\BOUNCE.WAV");
+            //links[4] = Path.Combine(outPutDirectory, @"SFX\CARTDRUM.WAV");
+            //links[5] = Path.Combine(outPutDirectory, @"SFX\CARTFX.WAV");
+            //links[6] = Path.Combine(outPutDirectory, @"SFX\CARTSHAK.WAV");
+            //links[7] = Path.Combine(outPutDirectory, @"SFX\CARTTONE.WAV");
+            //links[8] = Path.Combine(outPutDirectory, @"SFX\CATCH.WAV");
+            //links[9] = Path.Combine(outPutDirectory, @"SFX\CLICKING.WAV");
+            //links[10] = Path.Combine(outPutDirectory, @"SFX\DESCDRUM.WAV");
+            //links[11] = Path.Combine(outPutDirectory, @"SFX\DIVBOARD.WAV");
+            //links[12] = Path.Combine(outPutDirectory, @"SFX\DIVBRD2.WAV");
+            //links[13] = Path.Combine(outPutDirectory, @"SFX\DROPBRK.WAV");
+            //links[14] = Path.Combine(outPutDirectory, @"SFX\DROPSND.WAV");
+            //links[15] = Path.Combine(outPutDirectory, @"SFX\DWEEDWEE.WAV");
+            //links[16] = Path.Combine(outPutDirectory, @"SFX\DWEEE.WAV");
+            //links[17] = Path.Combine(outPutDirectory, @"SFX\FUNYDROP.WAV");
+            //links[18] = Path.Combine(outPutDirectory, @"SFX\HARDBALL.WAV");
+            //links[19] = Path.Combine(outPutDirectory, @"SFX\HEAVDROP.WAV");
+            //links[20] = Path.Combine(outPutDirectory, @"SFX\HITWANG.WAV");
+            //links[21] = Path.Combine(outPutDirectory, @"SFX\LONGBONG.WAV");
+            //links[22] = Path.Combine(outPutDirectory, @"SFX\LOSQUIRT.WAV");
+            //links[23] = Path.Combine(outPutDirectory, @"SFX\LOWBONG.WAV");
+            //links[24] = Path.Combine(outPutDirectory, @"SFX\LOWSPIN.WAV");
+
+            links[0] = FileName+ "\\APRING.WAV";
+            links[1] = FileName + "\\BNCEDRIP.WAV";
+            links[2] = FileName + "\\BOINGER.WAV";
+            links[3] = FileName + "\\BOUNCE.WAV";
+            links[4] = FileName + "\\CARTDRUM.WAV";
+            links[5] = FileName + "\\CARTFX.WAV";
+            links[6] = FileName + "\\CARTSHAK.WAV";
+            links[7] = FileName + "\\CARTTONE.WAV";
+            links[8] = FileName + "\\CATCH.WAV";
+            links[9] = FileName + "\\CLICKING.WAV";
+            links[10] = FileName + "\\DESCDRUM.WAV";
+            links[11] = FileName + "\\DIVBOARD.WAV";
+            links[12] = FileName + "\\DIVBRD2.WAV";
+            links[13] = FileName + "\\DROPBRK.WAV";
+            links[14] = FileName + "\\DROPSND.WAV";
+            links[15] = FileName + "\\DWEEDWEE.WAV";
+            links[16] = FileName + "\\DWEEE.WAV";
+            links[17] = FileName + "\\FUNYDROP.WAV";
+            links[18] = FileName + "\\HARDBALL.WAV";
+            links[19] = FileName + "\\HEAVDROP.WAV";
+            links[20] = FileName + "\\HITWANG.WAV";
+            links[21] = FileName + "\\LONGBONG.WAV";
+            links[22] = FileName + "\\LOSQUIRT.WAV";
+            links[23] = FileName + "\\LOWBONG.WAV";
+            links[24] = FileName + "\\LOWSPIN.WAV";
+
 
         }
 

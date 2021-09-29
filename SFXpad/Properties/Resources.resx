@@ -121,6 +121,192 @@
   <data name="APRING" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\APRING.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="BNCEDRIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BNCEDRIP.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BOINGER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOINGER.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BOUNCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOUNCE.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARTDRUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTDRUM.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARTFX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTFX.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARTSHAK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTSHAK.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARTTONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTTONE.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CATCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CATCH.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CLICKING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CLICKING.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DESCDRUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DESCDRUM.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DIVBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DIVBOARD.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DIVBRD2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DIVBRD2.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DROPBRK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DROPBRK.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DROPSND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DROPSND.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DWEEDWEE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DWEEDWEE.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DWEEE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DWEEE.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FUNYDROP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FUNYDROP.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HARDBALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HARDBALL.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HEAVDROP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HEAVDROP.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HITWANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HITWANG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LONGBONG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LONGBONG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LOSQUIRT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOSQUIRT.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LOWBONG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOWBONG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LOWSPIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOWSPIN.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MANBONK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MANBONK.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MEDVIB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEDVIB.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="METDRIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\METDRIP.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="METDRUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\METDRUM.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="METSTRK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\METSTRK.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MIDTWANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MIDTWANG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MINIDRUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MINIDRUM.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PLASBNCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PLASBNCE.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHORTCAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHORTCAR.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTBASS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTBASS.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTBNCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTBNCE.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTBRD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTBRD.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTBRKW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTBRKW.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTDRUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTDRUM.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTSQRT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTSQRT.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTTHRW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTTHRW.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTTHUD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTTHUD.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SHRTTWNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHRTTWNG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SMALGONG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SMALGONG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SMMETDRP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SMMETDRP.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SOFTWANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SOFTWANG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SPINHI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SPINHI.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SQUEEK0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQUEEK0.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SQUTWIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQUTWIST.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="STEELDRM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEELDRM.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="THRWSTIK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\THRWSTIK.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="THRWSTOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\THRWSTOP.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="THRWTWNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\THRWTWNG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="THRWVIB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\THRWVIB.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="THUD0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\THUD0.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TRAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TRAP.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TWANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TWANG.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOCANIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VOCANIM.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOCFUNNY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VOCFUNNY.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VOCWARB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VOCWARB.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VRYHARDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VRYHARDB.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WOODTHUD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WOODTHUD.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WOODTWND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WOODTWND.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ดาวน์โหลด__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ดาวน์โหลด (2).ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
