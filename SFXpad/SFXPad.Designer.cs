@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SFXPad));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button25 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
@@ -384,6 +385,7 @@
             this.Controls.Add(this.checkBoxN);
             this.Controls.Add(this.checkBoxEditS);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SFXPad";
             this.Text = "SFXPad";
             this.Load += new System.EventHandler(this.SFXPad_Load);
